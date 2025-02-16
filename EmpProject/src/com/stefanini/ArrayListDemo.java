@@ -10,9 +10,8 @@ public class ArrayListDemo {
 		
 		List<String> asList = Arrays.asList("sagar","praful","ajay","vishal","gopal");
 		
-		Iterator<String> itr = asList.iterator();
-		while(itr.hasNext()) {
-			System.out.println(itr.next());
+		for(String s :asList) {
+			System.out.println(s);
 		}
 
 	}
